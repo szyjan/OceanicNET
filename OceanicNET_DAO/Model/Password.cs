@@ -7,11 +7,10 @@ using System.Threading.Tasks;
 
 namespace OceanicNET_DAO.Model
 {
-    public class City
+    public class Password
     {
         [Key]
-        public int cityId { get; set; }
-        public string name { get; set; }
-        public virtual List<Route> routes { get; set; }
+        public int passwordId { get; set; }
+        public string hash { get; set; }
     }
 }

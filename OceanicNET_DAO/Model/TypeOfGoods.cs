@@ -7,11 +7,10 @@ using System.Threading.Tasks;
 
 namespace OceanicNET_DAO.Model
 {
-    public class City
+    public class TypeOfGoods
     {
         [Key]
-        public int cityId { get; set; }
+        public int typeId { get; set; }
         public string name { get; set; }
-        public virtual List<Route> routes { get; set; }
     }
 }

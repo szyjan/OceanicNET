@@ -7,11 +7,12 @@ using System.Threading.Tasks;
 
 namespace OceanicNET_DAO.Model
 {
-    public class City
+    public class PathNode
     {
         [Key]
-        public int cityId { get; set; }
-        public string name { get; set; }
-        public virtual List<Route> routes { get; set; }
+        public int nodeId { get; set; }
+        public int nodeSeqNumber { get; set; }
+        public virtual City city { get; set; }
+        public virtual PathNode nextNode { get; set; }
     }
 }

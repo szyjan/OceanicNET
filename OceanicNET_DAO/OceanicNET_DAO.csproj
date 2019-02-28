@@ -42,7 +42,19 @@
     <Compile Include="ContextOceanicNET.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\City.cs" />
+    <Compile Include="Utility\EnumHelper.cs" />
+    <Compile Include="Model\ExternalSearchHistory.cs" />
+    <Compile Include="Model\Order.cs" />
+    <Compile Include="Model\Parcel.cs" />
+    <Compile Include="Model\ParcelPriceCategory.cs" />
+    <Compile Include="Model\ParcelSizeCategory.cs" />
+    <Compile Include="Model\Password.cs" />
+    <Compile Include="Model\Path.cs" />
+    <Compile Include="Model\PathNode.cs" />
     <Compile Include="Model\Route.cs" />
+    <Compile Include="Model\Search.cs" />
+    <Compile Include="Model\TypeOfGoods.cs" />
+    <Compile Include="Model\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -56,6 +68,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
