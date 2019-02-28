@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OceanicNET", "OceanicNET\OceanicNET.csproj", "{AE895110-B8C0-4FAD-84ED-F86B9E77737E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{79F3C023-FAC0-4CA1-957F-F8003AABB1C3} = {79F3C023-FAC0-4CA1-957F-F8003AABB1C3}
+		{51FBF9B8-C775-46B0-BA5C-864BCEE0E3A3} = {51FBF9B8-C775-46B0-BA5C-864BCEE0E3A3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OceanicNET_Model", "OceanicNET_Model\OceanicNET_Model.csproj", "{79F3C023-FAC0-4CA1-957F-F8003AABB1C3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{51FBF9B8-C775-46B0-BA5C-864BCEE0E3A3} = {51FBF9B8-C775-46B0-BA5C-864BCEE0E3A3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OceanicNET_DAO", "OceanicNET_DAO\OceanicNET_DAO.csproj", "{51FBF9B8-C775-46B0-BA5C-864BCEE0E3A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE895110-B8C0-4FAD-84ED-F86B9E77737E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE895110-B8C0-4FAD-84ED-F86B9E77737E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE895110-B8C0-4FAD-84ED-F86B9E77737E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE895110-B8C0-4FAD-84ED-F86B9E77737E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F3C023-FAC0-4CA1-957F-F8003AABB1C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F3C023-FAC0-4CA1-957F-F8003AABB1C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F3C023-FAC0-4CA1-957F-F8003AABB1C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F3C023-FAC0-4CA1-957F-F8003AABB1C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51FBF9B8-C775-46B0-BA5C-864BCEE0E3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51FBF9B8-C775-46B0-BA5C-864BCEE0E3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51FBF9B8-C775-46B0-BA5C-864BCEE0E3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51FBF9B8-C775-46B0-BA5C-864BCEE0E3A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

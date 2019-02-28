@@ -1,0 +1,832 @@
+{
+	Graph:{
+		Cities:[
+			{
+				id:1,
+				name:"TANGIER"
+			},
+			{
+				id:2,
+				name:"CANARY ISLANDS"
+			},
+			{
+				id:3,
+				name:"MARRAKESH"
+			},
+			{
+				id:4,
+				name:"DAKAR"
+			},
+			{
+				id:5,
+				name:"SAHARA"
+			},
+			{
+				id:6,
+				name:"TUNIS"
+			},
+			{
+				id:7,
+				name:"TRIPOLI"
+			},
+			{
+				id:8,
+				name:"CAIRO"
+			},
+			{
+				id:9,
+				name:"OMDURMAN"
+			},
+			{
+				id:10,
+				name:"SUAKIN"
+			},
+			{
+				id:11,
+				name:"CHAD"
+			},
+			{
+				id:12,
+				name:"TIMBUKTU"
+			},
+			{
+				id:13,
+				name:"SIERRA LEONE"
+			},
+			{
+				id:14,
+				name:"GOLD COAST"
+			},
+			{
+				id:15,
+				name:"SLAVE COAST"
+			},
+			{
+				id:16,
+				name:"DARFUR"
+			},
+			{
+				id:17,
+				name:"BAHR EL-GHAZAL"
+			},
+			{
+				id:18,
+				name:"ADDIS ABABA"
+			},
+			{
+				id:19,
+				name:"CAPE GUARDAFUI"
+			},
+			{
+				id:20,
+				name:"VICTORIA FALLS"
+			},
+			{
+				id:21,
+				name:"CONGO"
+			},
+			{
+				id:22,
+				name:"LUANDA"
+			},
+			{
+				id:23,
+				name:"ST HELENA"
+			},
+			{
+				id:24,
+				name:"WALVIS BAY"
+			},
+			{
+				id:25,
+				name:"CAPE TOWN"
+			},
+			{
+				id:26,
+				name:"DRAKENSBERG"
+			},
+			{
+				id:27,
+				name:"MOZAMBIQUE"
+			},
+			{
+				id:28,
+				name:"VICTORIA LAKE"
+			},
+			{
+				id:29,
+				name:"ZANZIBAR"
+			},
+			{
+				id:30,
+				name:"TOMASIMA"
+			},
+			{
+				id:31,
+				name:"CAPE SAINTE MARIE"
+			},
+			{
+				id:32,
+				name:"KABALO"
+			}
+		],
+		Routes:[
+			{
+				id:1,
+				type:"AIR",
+				length:8,
+				cityAId:TANGIER,
+				cityBId:MARRAKESH,
+				cooperant:"Internal"
+			},
+			{
+				id:2,
+				type:"AIR",
+				length:8,
+				cityAId:SIERRA LEONE,
+				cityBId:MARRAKESH,
+				cooperant:"Internal"
+			},
+			{
+				id:3,
+				type:"AIR",
+				length:8,
+				cityAId:TANGIER,
+				cityBId:TRIPOLI,
+				cooperant:"Internal"
+			},
+			{
+				id:4,
+				type:"AIR",
+				length:8,
+				cityAId:GOLD COAST,
+				cityBId:MARRAKESH,
+				cooperant:"Internal"
+			},
+			{
+				id:5,
+				type:"AIR",
+				length:8,
+				cityAId:GOLD COAST,
+				cityBId:TRIPOLI,
+				cooperant:"Internal"
+			},
+			{
+				id:6,
+				type:"AIR",
+				length:8,
+				cityAId:DARFUR,
+				cityBId:TRIPOLI,
+				cooperant:"Internal"
+			},
+			{
+				id:7,
+				type:"AIR",
+				length:8,
+				cityAId:DARFUR,
+				cityBId:SUAKIN,
+				cooperant:"Internal"
+			},
+			{
+				id:8,
+				type:"AIR",
+				length:8,
+				cityAId:SUAKIN,
+				cityBId:CAIRO,
+				cooperant:"Internal"
+			},
+			{
+				id:9,
+				type:"AIR",
+				length:8,
+				cityAId:DARFUR,
+				cityBId:KABALO,
+				cooperant:"Internal"
+			},
+			{
+				id:10,
+				type:"AIR",
+				length:8,
+				cityAId:SUAKIN,
+				cityBId:VICTORIA LAKE,
+				cooperant:"Internal"
+			},
+			{
+				id:11,
+				type:"AIR",
+				length:8,
+				cityAId:VICTORIA LAKE,
+				cityBId:CAPE GUARDAFUI,
+				cooperant:"Internal"
+			},
+			{
+				id:12,
+				type:"AIR",
+				length:8,
+				cityAId:CAPE GUARDAFUI,
+				cityBId:TOMASIMA,
+				cooperant:"Internal"
+			},
+			{
+				id:13,
+				type:"AIR",
+				length:8,
+				cityAId:TOMASIMA,
+				cityBId:CAPE TOWN,
+				cooperant:"Internal"
+			},
+			{
+				id:14,
+				type:"AIR",
+				length:8,
+				cityAId:CAPE SANTA MARIE,
+				cityBId:TOMASIMA,
+				cooperant:"Internal"
+			},
+			{
+				id:15,
+				type:"AIR",
+				length:8,
+				cityAId:CAPE TOWN,
+				cityBId:DRAKENSBERG,
+				cooperant:"Internal"
+			},
+			{
+				id:16,
+				type:"AIR",
+				length:8,
+				cityAId:CAPE TOWN,
+				cityBId:KABALO,
+				cooperant:"Internal"
+			},
+			{
+				id:17,
+				type:"AIR",
+				length:8,
+				cityAId:DRAKENSBERG,
+				cityBId:VICTORIA LAKE,
+				cooperant:"Internal"
+			},
+			{
+				id:18,
+				type:"AIR",
+				length:8,
+				cityAId:CAPE TOWN,
+				cityBId:WALVIS BAY,
+				cooperant:"Internal"
+			},
+			{
+				id:19,
+				type:"AIR",
+				length:8,
+				cityAId:WALVIS BAY,
+				cityBId:LUANDA,
+				cooperant:"Internal"
+			},
+			{
+				id:20,
+				type:"AIR",
+				length:8,
+				cityAId:CAPE TWON,
+				cityBId:ST HELENA,
+				cooperant:"Internal"
+			},
+			{
+				id:21,
+				type:"AIR",
+				length:8,
+				cityAId:GOLD COAST,
+				cityBId:LUANDA,
+				cooperant:"Internal"
+			},
+			{
+				id:22,
+				type:"AIR",
+				length:8,
+				cityAId:ST HELENA,
+				cityBId:SIERRA LEONE,
+				cooperant:"Internal"
+			},
+			{
+				id:23,
+				type:"WATER",
+				length:36,
+				cityAId:CANARY ISLANDS,
+				cityBId:TANGIER,
+				cooperant:"EIT"
+			},
+			{
+				id:24,
+				type:"WATER",
+				length:36,
+				cityAId:TANGIER,
+				cityBId:TUNIS,
+				cooperant:"EIT"
+			},
+			{
+				id:25,
+				type:"WATER",
+				length:60,
+				cityAId:TUNIS,
+				cityBId:CAIRO,
+				cooperant:"EIT"
+			},
+			{
+				id:26,
+				type:"WATER",
+				length:60,
+				cityAId:MARRAKESH,
+				cityBId:DAKAR,
+				cooperant:"EIT"
+			},
+			{
+				id:27,
+				type:"WATER",
+				length:36,
+				cityAId:DAKAR,
+				cityBId:SIERRA LEONE,
+				cooperant:"EIT"
+			},
+			{
+				id:28,
+				type:"WATER",
+				length:120,
+				cityAId:DAKAR,
+				cityBId:ST HELENA,
+				cooperant:"EIT"
+			},
+			{
+				id:29,
+				type:"WATER",
+				length:136,
+				cityAId:SIERRA LEONE,
+				cityBId:ST HELENA,
+				cooperant:"EIT"
+			},
+			{
+				id:30,
+				type:"WATER",
+				length:48,
+				cityAId:SIERRA LEONE,
+				cityBId:GOLD COAST,
+				cooperant:"EIT"
+			},
+			{
+				id:31,
+				type:"WATER",
+				length:36,
+				cityAId:CAIRO,
+				cityBId:SUAKIN,
+				cooperant:"EIT"
+			},
+			{
+				id:32,
+				type:"WATER",
+				length:48,
+				cityAId:SUAKIN,
+				cityBId:CAPE GUARDAFUI,
+				cooperant:"EIT"
+			},
+			{
+				id:33,
+				type:"WATER",
+				length:96,
+				cityAId:CAPE GUARDAFUI,
+				cityBId:TOMASIMA,
+				cooperant:"EIT"
+			},
+			{
+				id:34,
+				type:"WATER",
+				length:96,
+				cityAId:CAPE GUARDAFUI,
+				cityBId:MOZAMBIQUE,
+				cooperant:"EIT"
+			},
+			{
+				id:35,
+				type:"WATER",
+				length:36,
+				cityAId:MOZAMBIQUE,
+				cityBId:CAPE SAINTE MARIE,
+				cooperant:"EIT"
+			},
+			{
+				id:36,
+				type:"WATER",
+				length:96,
+				cityAId:CAPE SAINTE MARIE,
+				cityBId:CAPE TOWN,
+				cooperant:"EIT"
+			},
+			{
+				id:37,
+				type:"WATER",
+				length:36,
+				cityAId:CAPE TOWN,
+				cityBId:WALVIS BAY,
+				cooperant:"EIT"
+			},
+			{
+				id:38,
+				type:"WATER",
+				length:108,
+				cityAId:CAPE TOWN,
+				cityBId:ST HELENA,
+				cooperant:"EIT"
+			},
+			{
+				id:39,
+				type:"WATER",
+				length:120,
+				cityAId:ST HELENA,
+				cityBId:WALVIS BAY,
+				cooperant:"EIT"
+			},
+			{
+				id:40,
+				type:"WATER",
+				length:108,
+				cityAId:WALVIS BAY,
+				cityBId:SLAVE COAST,
+				cooperant:"EIT"
+			},
+			{
+				id:41,
+				type:"WATER",
+				length:48,
+				cityAId:SLAVE COAST,
+				cityBId:GOLD COAST,
+				cooperant:"EIT"
+			},
+			{
+				id:42,
+				type:"WATER",
+				length:132,
+				cityAId:WALVIS BAY,
+				cityBId:GOLD COAST,
+				cooperant:"EIT"
+			},
+			{
+				id:43,
+				type:"LAND",
+				length:20,
+				cityAId:TANGIER,
+				cityBId:TUNIS,
+				cooperant:"TL"
+			},
+			{
+				id:44,
+				type:"LAND",
+				length:8,
+				cityAId:TANGIER,
+				cityBId:MARRAKESH,
+				cooperant:"TL"
+			},
+			{
+				id:45,
+				type:"LAND",
+				length:20,
+				cityAId:MARRAKESH,
+				cityBId:SAHARA,
+				cooperant:"TL"
+			},
+			{
+				id:46,
+				type:"LAND",
+				length:20,
+				cityAId:TANGIER,
+				cityBId:SAHARA,
+				cooperant:"TL"
+			},
+			{
+				id:47,
+				type:"LAND",
+				length:12,
+				cityAId:TUNIS,
+				cityBId:TRIPOLI,
+				cooperant:"TL"
+			},
+			{
+				id:48,
+				type:"LAND",
+				length:32,
+				cityAId:DAKAR,
+				cityBId:MARRAKESH,
+				cooperant:"TL"
+			},
+			{
+				id:49,
+				type:"LAND",
+				length:16,
+				cityAId:DAKAR,
+				cityBId:SIERRA LEONE,
+				cooperant:"TL"
+			},
+			{
+				id:50,
+				type:"LAND",
+				length:24,
+				cityAId:TRIPOLI,
+				cityBId:OMDURMAN,
+				cooperant:"TL"
+			},
+			{
+				id:51,
+				type:"LAND",
+				length:16,
+				cityAId:CAIRO,
+				cityBId:OMDURMAN,
+				cooperant:"TL"
+			},
+			{
+				id:52,
+				type:"LAND",
+				length:12,
+				cityAId:OMDURMAN,
+				cityBId:DARFUR,
+				cooperant:"TL"
+			},
+			{
+				id:53,
+				type:"LAND",
+				length:32,
+				cityAId:DARFUR,
+				cityBId:SAHARA,
+				cooperant:"TL"
+			},
+			{
+				id:54,
+				type:"LAND",
+				length:16,
+				cityAId:DARFUR,
+				cityBId:CHAD,
+				cooperant:"TL"
+			},
+			{
+				id:55,
+				type:"LAND",
+				length:8,
+				cityAId:DARFUR,
+				cityBId:BAHR EL-GHAZAL,
+				cooperant:"TL"
+			},
+			{
+				id:56,
+				type:"LAND",
+				length:16,
+				cityAId:DARFUR,
+				cityBId:SUAKIN,
+				cooperant:"TL"
+			},
+			{
+				id:57,
+				type:"LAND",
+				length:12,
+				cityAId:SUAKIN,
+				cityBId:ADDIS ABABA,
+				cooperant:"TL"
+			},
+			{
+				id:58,
+				type:"LAND",
+				length:12,
+				cityAId:ADDIS ABABA,
+				cityBId:CAPE GUARDAFUI,
+				cooperant:"TL"
+			},
+			{
+				id:59,
+				type:"LAND",
+				length:12,
+				cityAId:ADDIS ABABA,
+				cityBId:VICTORIA LAKE,
+				cooperant:"TL"
+			},
+			{
+				id:60,
+				type:"LAND",
+				length:20,
+				cityAId:CAPE GUARDAFUI,
+				cityBId:ZANZIBAR,
+				cooperant:"TL"
+			},
+			{
+				id:61,
+				type:"LAND",
+				length:8,
+				cityAId:BAHR EL-GHAZAL,
+				cityBId:VICTORIA LAKE,
+				cooperant:"TL"
+			},
+			{
+				id:62,
+				type:"LAND",
+				length:16,
+				cityAId:VICTORIA LAKE,
+				cityBId:KABALO,
+				cooperant:"TL"
+			},
+			{
+				id:63,
+				type:"LAND",
+				length:16,
+				cityAId:KABALO,
+				cityBId:LUANDA,
+				cooperant:"TL"
+			},
+			{
+				id:64,
+				type:"LAND",
+				length:12,
+				cityAId:CONGO,
+				cityBId:LUANDA,
+				cooperant:"TL"
+			},
+			{
+				id:65,
+				type:"LAND",
+				length:xxx,
+				cityAId:TIMBUKTU,
+				cityBId:SLAVE COAST,
+				cooperant:"TL"
+			},
+			{
+				id:66,
+				type:"LAND",
+				length:16,
+				cityAId:DRAKENSBERG,
+				cityBId:MOZAMBIQUE,
+				cooperant:"TL"
+			},
+			{
+				id:67,
+				type:"LAND",
+				length:16,
+				cityAId:CAPE TOWN,
+				cityBId:WALVIS BAY,
+				cooperant:"TL"
+			},
+			{
+				id:68,
+				type:"LAND",
+				length:16,
+				cityAId:WALVIS BAY,
+				cityBId:VICTORIA FALLS,
+				cooperant:"TL"
+			},
+			{
+				id:69,
+				type:"LAND",
+				length:12,
+				cityAId:DRAKENSBERG,
+				cityBId:VICTORIA FALLS,
+				cooperant:"TL"
+			},
+			{
+				id:70,
+				type:"LAND",
+				length:20,
+				cityAId:SIERRA LEONE,
+				cityBId:TIMBUKTU,
+				cooperant:"TL"
+			},
+			{
+				id:71,
+				type:"LAND",
+				length:20,
+				cityAId:SIERRA LEONE,
+				cityBId:GOLD COAST,
+				cooperant:"TL"
+			},
+			{
+				id:72,
+				type:"LAND",
+				length:16,
+				cityAId:GOLD COAST,
+				cityBId:TIMBUKTU,
+				cooperant:"TL"
+			},
+			{
+				id:73,
+				type:"LAND",
+				length:24,
+				cityAId:VICTORIA LAKE,
+				cityBId:MOZAMBIQUE,
+				cooperant:"TL"
+			},
+			{
+				id:74,
+				type:"LAND",
+				length:20,
+				cityAId:VICTORIA LAKE,
+				cityBId:ZANZIBAR,
+				cooperant:"TL"
+			},
+			{
+				id:75,
+				type:"LAND",
+				length:12,
+				cityAId:ZANZIBAR,
+				cityBId:MOZAMBIQUE,
+				cooperant:"TL"
+			},
+			{
+				id:76,
+				type:"LAND",
+				length:40,
+				cityAId:LUANDA,
+				cityBId:MOZAMBIQUE,
+				cooperant:"TL"
+			},
+			{
+				id:77,
+				type:"LAND",
+				length:44,
+				cityAId:LUANDA,
+				cityBId:DRAKENSBERG,
+				cooperant:"TL"
+			},
+			{
+				id:78,
+				type:"LAND",
+				length:44,
+				cityAId:LUANDA,
+				cityBId:VICTORIA FALLS,
+				cooperant:"TL"
+			},
+			{
+				id:79,
+				type:"LAND",
+				length:20,
+				cityAId:VICTORIA FALLS,
+				cityBId:MOZAMBIQUE,
+				cooperant:"TL"
+			},
+			{
+				id:80,
+				type:"LAND",
+				length:16,
+				cityAId:VICTORIA FALLS,
+				cityBId:DRAKENSBERG,
+				cooperant:"TL"
+			},
+			{
+				id:81,
+				type:"LAND",
+				length:20,
+				cityAId:DRAKENSBERG,
+				cityBId:MOZAMBIQUE,
+				cooperant:"TL"
+			},
+			{
+				id:82,
+				type:"LAND",
+				length:28,
+				cityAId:SLAVE COAST,
+				cityBId:CHAD,
+				cooperant:"TL"
+			},
+			{
+				id:83,
+				type:"LAND",
+				length:28,
+				cityAId:SLAVE COAST,
+				cityBId:DARFUR,
+				cooperant:"TL"
+			},
+			{
+				id:84,
+				type:"LAND",
+				length:20,
+				cityAId:SLAVE COAST,
+				cityBId:CONGO,
+				cooperant:"TL"
+			},
+			{
+				id:85,
+				type:"LAND",
+				length:32,
+				cityAId:CHAD,
+				cityBId:DARFUR,
+				cooperant:"TL"
+			},
+			{
+				id:86,
+				type:"LAND",
+				length:24,
+				cityAId:CHAD,
+				cityBId:CONGO,
+				cooperant:"TL"
+			},
+			{
+				id:87,
+				type:"LAND",
+				length:24,
+				cityAId:DARFUR,
+				cityBId:CONGO,
+				cooperant:"TL"
+			}
+		]
+	}
+}
